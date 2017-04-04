@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<html>
+
+    <head>
+        <title>Contaxct Us Form</title>
+    </head>
+
+    <body>
+    <!-- This is the lab to create a contact us HTML page -->
+        <div>
+            <form action="ContactUs.html" method="POST">
+                <table>
+                    <tr>
+                        <td align="right">First Name:<br/><br/></td>
+                        <td align="left"><input type="text" name="firstname" align="left"/><br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Last Name:<br/><br/></td>
+                        <td align="left"> <input type="text" name="lastname"/><br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Email:<br/><br/></td>
+                        <td align="left"><input type="text" name="email"/><br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align=right>Type of License:<br/><br/></td> 
+                        <td align="left"><input type="radio" name="TypeOfLicense" value="Business" checked/>Business
+                        <input type="radio" name="TypeOfLicense" value="Personal"/>Personal<br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Reason:<br/><br/></td>
+                        <td><select name="Reason">
+                        <option value="SelectAReason">Select a Reason</option>
+                        <option value="SoftwareSupport">Software Support</option>
+                        <option value="HardwareSupport">Hardware Support</option>
+                        <option value="InfoRequest">information Request</option>
+                        </select><br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align="right" align"top">Additional Information:<br/><br/></td>
+                        <td align="left"><textarea name="AdditiionalInfo"></textarea></br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="left"><input type="checkbox" name="TermsOfService" value="Acceptance"/>I have read the terms of services<br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td> </td>
+                        <td align="center"><input type="submit" value="Send Request"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </body>
+
+</html>
