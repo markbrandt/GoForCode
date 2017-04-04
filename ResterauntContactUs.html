@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+<html lang="en-us">
+
+<html>
+
+    <head>
+        <title>Resteraunt Contact Us Form</title>
+    </head>
+
+    <body>
+    <!-- This is the lab to create a contact us HTML page -->
+        <div>
+          <h1 align="center">Mark's Grill</h1>
+          <hr>
+          <p>
+              <a href="ResterauntHome.html">Home</a>
+              <a href="ResterauntMenu.html">Menu</a>
+              <a href="ResterauntContactUs.html">Contact Us</a>
+          </p>
+          <hr><br/><br/>
+            <form action="ContactUs.html" method="POST">
+                <table width="100%" align="center">
+                    <tr>
+                        <td align="right">Name:<br/><br/></td>
+                        <td align="left"><input type="text" name="firstname" align="left"/><br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td align="right">Email:<br/><br/></td>
+                        <td align="left"> <input type="text" name="email"/><br/><br/></td>
+                   </tr>
+                    <tr>
+                        <td align="right">Phone:<br/><br/></td>
+                        <td align="left"><input type="text" name="phone"/><br/><br/></td>
+                   </tr>
+                    <tr>
+                        <td align="right">Reason for Inquiry:<br/><br/></td>
+                        <td><select name="Reason">
+                        <option value="Catering">Catering</option>
+                        <option value="PrivateParty">Private Party</option>
+                        <option value="Feedback">Feedback</option>
+                        <option value="Other">Other</option>
+                        </select><br/><br/></td>
+                   </tr>
+                    <tr>
+                        <td align="right" align"top">Additional Information:<br/><br/></td>
+                        <td align="left"><textarea name="AdditiionalInfo"></textarea></br/><br/></td>
+                   </tr>
+                    <tr>
+                        <td align="right">Have you been to the resteraunt?<br/><br/></td> 
+                        <td align="left"><input type="radio" name="BeenToResteraunt" value="Business" checked/>No
+                        <input type="radio" name="BeenToResteraunt" value="Personal"/>Yes<br/><br/></td>
+                   </tr>
+                    <tr>
+                        <td align="right">Best days to contact you:</td>
+                        <td align="left"></br><input type="checkbox" name="Monday" value="No"/>M
+                        <input type="checkbox" name="Tuesday" value="No">T
+                        <input type="checkbox" name="Wednesday" value="No">W
+                        <input type="checkbox" name="Thursday" value="No">Th
+                        <input type="checkbox" name="Friday" value="No">F
+                         <br/><br/></td>
+                    </tr>
+                    <tr>
+                        <td></td>
+                        <td align="center"><input type="submit" value="Send Request"/></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+          <footer align="bottom">
+            <hr>
+            <p align="center">
+                123 Aho Way, Indianoplace, IN, 46123<br/>
+                (317) 379-9011
+            </p>
+          </footer>
+   
+    </body>
+
+</html>
