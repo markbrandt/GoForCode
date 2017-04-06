@@ -1,2 +1,19 @@
 h1 {text-align: center;}
 footer {text-align: center; display: block;}
+a {font-family: monospace;
+    text-decoration: underline;
+    font-weight: none;}
+a:link {color: blue;}
+a:visited {color: darkred;}
+a:hover {font-weight: bold}
+a:active {text-decoration: none}
+table.beverages {display: block;
+                   margin-left: 45%;
+                   margin-right: 30%;
+                   width: 100%;}
+td.right {text-align: right;>}
+td.left {text-align: left;}
+td.center {align-content: center;}
+td.bold {font-weight: bold;}
+tr.underline {text-decoration: underline;}
+ 
