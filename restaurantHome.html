@@ -21,22 +21,31 @@
              div.color {background-color: palegreen;}
              p.color {background-color: palegreen;}
         </style>
+        <link rel="stylesheet"
+              type="text/css"
+            href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet"
+              type="text/css"
+            href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+
     </head>
 
     <body>
     <!-- This is the main page for the resteraunt HTML lab -->
+    <div class="container-fluid">
         <div>
           <h1 class="font">Mark's Grill</h1>
         </div>
-        <div>
+        <div class="container">
           <hr>
-          <p>
-              <a href="restaurantHome.html">Home</a>
-              <a href="restaurantMenu.html">Menu</a>
-              <a href="restaurantContactUs.html">Contact Us</a>
-          </p>
+          <ul class="nav nav-pills">
+              <li><a href="restaurantHome.html"><span class="glyphicon glyphicon-home"</span></a></li>
+              <li><a href="restaurantMenu.html">Menu</a></li>
+              <li><a href="restaurantContactUs.html">Contact Us</a></li>
+          </ul>
           <hr>
-          </div>
+        </div>
           <div class="color">
           <div class="picture">
             <img src="Images/SteakMeal.jpg" alt="can not find pic">
@@ -54,6 +63,14 @@
                 </tr>
           </table>
           </div>
+          
+          <div class="container">
+              <div class="jumbotron">
+                  <h1>We are opening a new location!</h1>
+                  <h2>321 East 21 St, Dover NH, (605) 123-9876</h3>
+              </div>
+          </div>
+
           <footer>
             <hr>
             <p>
@@ -65,7 +82,7 @@
     
         </div>
 
-  
+    </div>
     </body>
 
 </html>

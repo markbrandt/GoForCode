@@ -20,18 +20,27 @@
             td.center {align-content: center;}
             td.bold {font-weight: bold;}
         </style>
+        <link rel="stylesheet"
+              type="text/css"
+            href="bootstrap-3.3.7-dist/css/bootstrap.min.css"/>
+        <link rel="stylesheet"
+              type="text/css"
+            href="bootstrap-3.3.7-dist/css/bootstrap-theme.min.css"/>
+        <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
     </head>
 
     <body>
     <!-- This is the lab to create a contact us HTML page -->
         <div>
           <h1>Mark's Grill</h1>
+          <div class="container">
           <hr>
-          <p>
-              <a href="restaurantHome.html">Home</a>
-              <a href="restaurantMenu.html">Menu</a>
-              <a href="restaurantContactUs.html">Contact Us</a>
-          </p>
+          <ul class="nav nav-pills">
+              <li><a href="restaurantHome.html"><span class="glyphicon glyphicon-home"</span></a></li>
+              <li><a href="restaurantMenu.html">Menu</a></li>
+              <li><a href="restaurantContactUs.html">Contact Us</a></li>
+          </ul>
+          </div>
           <hr><br/><br/>
             <form action="ContactUs.html" method="POST">
                 <table>
